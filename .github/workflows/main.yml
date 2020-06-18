@@ -29,5 +29,5 @@ jobs:
     - name: install surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./ bootcampnewapp.surge.sh --token ${{secrets.SURGETOKEN}}
+      run: surge ./ condemned-garden.surge.sh  --token ${{secrets.SURGETOKEN}}
         
